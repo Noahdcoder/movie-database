@@ -19,7 +19,7 @@ export default function Home({ results }: Props) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="p-8 space-y-8">
+      <main className="p-4 space-y-8 md:p-8">
         <SearchBar />
         <TrendingDay results={results} />
       </main>
